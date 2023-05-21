@@ -1,7 +1,7 @@
   @font-face {
 
     font-family: Aktifo-bold;
-    src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-bold.ttf");
+    src: url("../src/assets/font/aktifoa-bold.ttf");
 
     font-family: Aktifo bold-oblique;
     src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-boldoblique.ttf");
@@ -40,15 +40,12 @@
 
   .main {
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     margin: 0;
     padding: 0;
     border: none;
   }
 
-  .main::-webkit-scrollbar {
-    display: none;
-  }
 
   .hero-section {
     background: url("../src/assets/pics/banner image copy@2x.png") no-repeat bottom;
@@ -83,9 +80,9 @@
 
   .bold-text {
     position: absolute;
-    top: 330px;
+    top: 280px;
     left: 141px;
-    font-family: Aktifo semi-bold;
+    font-family: Aktifo-bold;
     font-size: 54px;
     font-weight: 600;
     width: 40%;
@@ -115,40 +112,29 @@
     display: flex;
     position: absolute;
     flex-direction: row;
+    justify-content: space-evenly;
     left: 150px;
     top: 700px;
   }
 
   .split {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
     padding: 25px;
   }
 
   .first-col {
-    display: flex;
-    flex-direction: column;
+    margin: 20px;
     background-color: #000000;
     width: 100px;
     height: 100px;
-    font-size: 80px;
     border-radius: 50%;
 
   }
 
-  .one {
-    position: relative;
-    left: 15px;
-    top: 20px;
-    color: white;
-  }
-
   .text-one {
-    position: relative;
-    left: -5px;
-    top: 20px;
-    font-size: 24px !important;
+    margin-top: 15px;
+    font-size: 22px !important;
     text-align: center;
   }
 
@@ -167,7 +153,7 @@
 
   .content {
     position: relative;
-    top: 300px;
+    top: 200px;
     left: 80px;
   }
 
@@ -185,7 +171,7 @@
     position: relative;
     top: 350px;
     left: 100px;
-    padding: 25px 50px 25px 50px;
+    padding: 25px 80px 25px 80px;
     font-size: 24px;
     background-color: #ff580b;
     color: #ffffff;
@@ -204,12 +190,19 @@
   .content-section {
     background: url("../src/assets/pics/GS_DIGITAL_AD_WALL_FILMS_INTERIOR_DESIGN_COLLECTION_Indoor_MPI8621_Removable@2x.png");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: left;
     background-size: cover;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row-reverse;
+
+  }
+
+  .content-section-two {
+    display: none;
+    width: 100%;
+    height: 100vh;
 
   }
 
@@ -224,17 +217,46 @@
 
   }
 
+  .right-two {
+
+    width: 100%;
+    height: 100vh;
+    background-color: #e6e6e6;
+
+  }
+
+  .icon-text-two {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .center-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .section-img>img {
+    display: none;
+    width: 100vw;
+  }
+
   .icon {
     background-color: #ffffff;
-    width: 10%;
-    height: 100px;
+    width: 11%;
+    height: 90px;
     border-radius: 50%;
-
   }
 
   .heading {
     font-size: 48px;
     margin-bottom: 50px;
+  }
+
+  .svg {
+    margin-top: 15px;
   }
 
   .icon-text {
@@ -282,6 +304,31 @@
     height: 300px;
   }
 
+  .footer-next {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 300px;
+    display: none;
+  }
+
+  .core {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-first>h3 {
+    color: #ffffff;
+    margin-right: 10px;
+  }
+
+  .footer-second>p {
+    color: #ffffff;
+  }
+
   .footer-one>img {
     margin-top: 30px;
   }
@@ -312,7 +359,7 @@
 
   /*  Media */
 
-  @media only screen and (min-width:1220px) {
+  /* @media only screen and (min-width:800px)and (min-width:1220px) {
     .hero-section {
       height: 100vh !important;
     }
@@ -400,9 +447,9 @@
       font-size: 28px;
     }
 
-  }
+  } */
 
-  @media only screen and (max-width:800px) {
+  /* @media only screen and (min-width:500px) and (max-width:800px) {
     .hero-section {
       width: 100vw;
       height: 100vh;
@@ -454,15 +501,63 @@
     .text-one>p {
       font-size: 18px;
     }
-  }
+  } */
 
-  @media only screen and (max-width:600px) {
+  @media only screen and (min-width:300px) and (max-width:500px) {
+    .hero-section {
+      background-image: url("../src/assets/pics/Mask Group 2@2x.png");
+    }
+
     .bold-text {
-      font-size: 25px;
+      font-size: 1.5rem;
+      width: 70%;
+      top: 200px;
+      left: 50px
+    }
+
+    .svg-icons {
+      left: 50px;
+      top: 400px;
+    }
+
+    .first-col {
+      margin: 5px;
+      width: 70px;
+      height: 70px;
     }
 
     .light-text {
       font-size: 18px;
+      width: 70%;
+      top: 320px;
+      left: 50px;
+    }
+
+    .text-one {
+      top: -250px;
+      left: -100px;
+    }
+
+    .mid-section {
+      background-image: url("../src/assets//pics/Mask Group 1@2x.png");
+      height: 2124px;
+    }
+
+    .content {
+      top: 700px;
+    }
+
+    .btn {
+      top: 750px;
+      left: 50px;
+    }
+    .content-section{
+      display: none;
+    }
+    .content-section-two{
+      display: block;
+      height: 1290px;
+      background-color:#e6e6e6 ;
     }
 
     .content>h1 {
@@ -486,14 +581,42 @@
     }
 
     .icon {
-      height: 45px;
+      margin-bottom: 15px;
+      height: 85px;
       width: 90px;
     }
-
+    .icon-text-two{
+      justify-content: center;
+      align-items: baseline;
+    }
+    .heading{
+      margin-bottom: 0px;
+    }
+    .heading >h3{
+      margin-right: 200px;
+      font-size: 50px;
+      margin-top:-100px;
+    }
     .style {
       font-size: 30px;
       left: 6px;
       top: 6px;
+    }
+
+    .section-img>img {
+      display: block;
+    }
+    .footer{
+      display: none;
+    }
+    .footer-next{
+      padding: 25px;
+      display: block;
+    }
+    .footer-one > img{
+      width: 80px;
+      height: 10px;
+      margin-bottom: 15px;
     }
 
     .text {
@@ -526,26 +649,26 @@
     }
 
     .btn-two {
-      position: relative;
-      bottom: 20px;
-      padding: 5px 15px 5px 15px;
-      font-size: 10px;
+
+      padding: 5px 25px 5px 25px;
+      font-size: 20px;
       background-color: #ff580b;
       color: #ffffff;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      margin-right: 120px;
     }
   }
 
-  @media only screen and (max-width:590px) {
-    .hero-section {
+  /* @media only screen and (max-width:350px) {
+    /* .hero-section {
       background-image: url("../src/assets/pics/Mask Group 2@2x.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       width: 100vw;
-    }
+    } 
 
     .bold-text {
       width: 80%;
@@ -673,17 +796,17 @@
 
     .form-container {
       top: 20px;
-      left: 500px;
+      right: 0px;
+      max-width: 100px;
     }
-  }
+  } */
 
   /* Form */
 
   .form-container {
-    position: relative;
-
-    top: 300px;
-    left: 650px;
+    position: absolute;
+    top: 400px;
+    right: 400px;
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
@@ -696,10 +819,14 @@
     margin-bottom: 15px;
   }
 
+  .check-box label {
+    text-align: center;
+    margin: 8px;
+  }
+
   .form-group label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
   }
 
   .form-group input,
@@ -719,10 +846,6 @@
     margin-top: 5px;
   }
 
-  .form-group .checkbox-label {
-    font-weight: normal;
-  }
-
   .form-group button {
     background-color: #ff580b;
     color: #fff;
@@ -733,4 +856,5 @@
     text-align: center;
     margin-left: 120px;
     font-size: 20px;
+    margin-top: 20px;
   }

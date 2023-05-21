@@ -23,56 +23,56 @@ function Form() {
   return (
     <div>
       {showForm && (
-        <div class="form-container">
+        <div className="form-container">
           <form>
-            <div class="form-group">
-              <label for="name">Name:</label>
+            <div className="form-group">
+              <label >Name:</label>
               <input type="text" id="name" name="name" required />
             </div>
 
-            <div class="form-group">
-              <label for="email">Email:</label>
+            <div className="form-group">
+              <label >Email:</label>
               <input type="email" id="email" name="email" required />
             </div>
-            <div class="form-group">
-              <label for="email">Contact</label>
-              <input type="email" id="email" name="email" required />
+            <div className="form-group">
+              <label >Contact</label>
+              <input type="tel" id="email" name="email" required />
             </div>
-            <div class="form-group">
-              <label for="email">Company</label>
-              <input type="email" id="email" name="email" required />
+            <div className="form-group">
+              <label >Company</label>
+              <input type="text" id="email" name="email" required />
             </div>
 
-            <div class="form-group">
-              <label for="selectField">State</label>
+            <div className="form-group">
+              <label >State</label>
               <select id="selectField" name="selectField" required>
-                <option value=""> <span style={{ color: '#000000' }}>California</span></option>
+                <option value="">California</option>
               </select>
             </div>
-            <div class="form-group">
-              <label for="selectField">How would you like to describe yourself</label>
+            <div className="form-group">
+              <label >How would you like to describe yourself</label>
               <select id="selectField" name="selectField" required>
                 <option value="">Installer</option>
               </select>
             </div>
-            <div class="form-group">
-              <label for="selectField">Preferred Distributor</label>
+            <div className="form-group">
+              <label >Preferred Distributor</label>
               <select id="selectField" name="selectField" required>
                 <option value="">Aerotech</option>
               </select>
             </div>
 
-            <div class="form-group">
-              <label for="message">Additional Information</label>
+            <div className="form-group">
+              <label >Additional Information</label>
               <textarea id="message" name="message" rows="5" required></textarea>
             </div>
 
-            <div class="form-group">
+            <div className="check-box">
               <input type="checkbox" id="checkbox" name="checkbox" />
-              <label for="checkbox" class="checkbox-label">I'd like to receive promotions, product information and service offers from Avery Dennison.</label>
+              <label className="checkbox-label">I'd like to receive promotions, product information and service offers from Avery Dennison.</label>
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <button type="submit">Submit <BsArrowRight className='arrow' /></button>
             </div>
           </form>
