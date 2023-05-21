@@ -51,7 +51,7 @@
   }
 
   .hero-section {
-    background: url("C:\Aman\projects\thealphaagency\app\src\assets\pics\banner image copy@2x.png") no-repeat bottom;
+    background: url("../src/assets/pics/banner image copy@2x.png") no-repeat bottom;
     background-size: cover;
     width: 100%;
     height: 99.9vh;
@@ -155,7 +155,7 @@
   /* Hero section ends */
 
   .mid-section {
-    background: url("../src/assets/pics/Group\ 218.png");
+    background: url("../src/assets/pics/Group 218.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -540,7 +540,7 @@
 
   @media only screen and (max-width:590px) {
     .hero-section {
-      background-image: url("../src/assets/pics/Mask\ Group\ 2@2x.png");
+      background-image: url("../src/assets/pics/Mask Group 2@2x.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
