@@ -1,33 +1,33 @@
   @font-face {
 
-    font-family: Aktifo-bold;
-    src: url("../src/assets/font/aktifoa-bold.ttf");
+    /* font-family: Aktifo-bold;
+    src: url('../src/assets/font/aktifoa-bold.ttf') format('truetype');
 
-    font-family: Aktifo bold-oblique;
-    src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-boldoblique.ttf");
+    /* font-family: Aktifo bold-oblique; */
+    /* src: url('../src/assets/font/aktifoa-boldoblique.ttf') format('truetype'); */
 
-    font-family: Aktifo book;
-    src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-book.ttf");
+    /* font-family: Aktifo book; */
+    /* src: url('../src/assets/font/aktifoa-book.ttf') format('truetype'); */
 
-    font-family: Aktifo book-oblique;
-    src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-bookoblique.ttf");
+    /* font-family: Aktifo book-oblique; */
+    /* src: url('../src/assets/font/aktifoa-bookoblique.ttf') format('truetype'); */ 
 
     font-family: Aktifo-light;
-    src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-light.ttf");
+    src: url('../src/assets/font/aktifoa-light.ttf') format('truetype');
 
-    font-family: Aktifo light-oblique;
-    src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-lightoblique.ttf");
+    /* font-family: Aktifo light-oblique; */
+    /* src: url('../src/assets/font/aktifoa-lightoblique.ttf') format('truetype'); */
 
-    font-family: Aktifo-medium;
-    src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-medium.ttf");
-    font-family: Aktifo medium-oblique;
-    src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-obique.ttf");
+    /* font-family: Aktifo-medium; */
+    /* src: url('../src/assets/font/aktifoa-medium.ttf') format('truetype'); */
+    /* font-family: Aktifo medium-oblique; */
+    /* src: url('../src/assets/font/aktifoa-mediumoblique.ttf') format('truetype'); */
 
-    font-family: Aktifo semi-bold;
-    src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-semibold.ttf");
+    /* font-family: Aktifo semi-bold; */
+    /* src: url('../src/assets/font/aktifoa-semibold.ttf') format('truetype'); */
 
-    font-family: Aktifo semi-bold-oblique;
-    src: url("C:\Aman\projects\thealphaagency\app\src\assets\font\aktifoa-semiboldoblique.ttf")
+    /* font-family: Aktifo semi-bold-oblique; */
+    /* src: url('../src/assets/font/aktifoa-semiboldoblique.ttf') format('truetype'); */
   }
 
   * {
@@ -82,7 +82,7 @@
     position: absolute;
     top: 280px;
     left: 141px;
-    font-family: Aktifo-bold;
+    font-family: Aktifo-light;
     font-size: 54px;
     font-weight: 600;
     width: 40%;
@@ -97,7 +97,7 @@
     position: absolute;
     top: 590px;
     left: 141px;
-    font-family: Aktifo book;
+    font-family: Aktifo-light;
     font-size: 34px;
     font-weight: 300;
     width: 28%;
@@ -134,7 +134,8 @@
 
   .text-one {
     margin-top: 15px;
-    font-size: 22px !important;
+    font-family: Aktifo-light;
+    font-size: 18px !important;
     text-align: center;
   }
 
@@ -158,12 +159,23 @@
   }
 
   .content>h1 {
+    font-family: Aktifo-light;
+    font-weight: 600;
     font-size: 63px;
   }
 
-  .content>p,
-  .content>h2,
-  ul li {
+  .content>p{
+    font-family: Aktifo-light;
+    font-weight: 300;
+    font-size: 26px;
+  }
+  .content>h2{
+    font-family: Aktifo-light;
+    font-weight:bolder;
+    font-size: 26px;
+  }
+  .content ul li {
+    font-family: Aktifo-light;
     font-size: 26px;
   }
 
@@ -178,6 +190,7 @@
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    font-family: Aktifo-light;
   }
 
   .arrow {
@@ -245,13 +258,14 @@
 
   .icon {
     background-color: #ffffff;
-    width: 11%;
+    width: 9%;
     height: 90px;
     border-radius: 50%;
   }
 
   .heading {
     font-size: 48px;
+    font-family: Aktifo-light;
     margin-bottom: 50px;
   }
 
@@ -262,15 +276,17 @@
   .icon-text {
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    padding: 15px;
   }
 
   .text {
     margin-left: 30px;
     font-size: 20px;
+    font-family: Aktifo-light;
   }
 
   .text>b {
+    font-family: Aktifo-light;
     font-size: 20px;
   }
 
@@ -322,10 +338,12 @@
 
   .footer-first>h3 {
     color: #ffffff;
+    font-family: Aktifo-light;
     margin-right: 10px;
   }
 
   .footer-second>p {
+    font-family: Aktifo-light;
     color: #ffffff;
   }
 
@@ -334,23 +352,31 @@
   }
 
   .footer-one>h1 {
+    font-family: Aktifo-light;
     color: #ffffff;
   }
 
   .footer-two>h3 {
+    font-family: Aktifo-light;
     color: #ffffff;
   }
 
   .footer-three>p {
+    font-family: Aktifo-light;
     color: #ffffff;
   }
 
   .last {
     width: 100vw;
     height: 100px;
+    font-family: Aktifo-light;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  a{
+    color: #ffffff;
+    text-decoration: none;
   }
 
 
@@ -507,7 +533,9 @@
     .hero-section {
       background-image: url("../src/assets/pics/Mask Group 2@2x.png");
     }
-
+    .image{
+      left:50px
+    }
     .bold-text {
       font-size: 1.5rem;
       width: 70%;
@@ -545,6 +573,16 @@
 
     .content {
       top: 700px;
+      left: 50px;
+    }
+    .content>p{
+      font-size: 16px;
+    }
+    .content>h2{
+      font-size: 16px;
+    }
+    .content ul li {
+      font-size: 12px;
     }
 
     .btn {
@@ -613,11 +651,11 @@
       padding: 25px;
       display: block;
     }
-    .footer-one > img{
+    /* .footer-one > img{
       width: 80px;
       height: 10px;
       margin-bottom: 15px;
-    }
+    } */
 
     .text {
       font-size: 12px;
@@ -632,14 +670,21 @@
     }
 
     .footer-one>img {
-      height: 80px;
+      height: 40px;
       width: 150px;
     }
 
     .footer-one>h1 {
       font-size: 24px;
     }
-
+    .footer-first > h3 {
+      color: #727272;
+      font-weight: 200;
+    }
+    .footer-second >p {
+      color: #727272;
+      font-weight: 200;
+    }
     .footer-two>h3 {
       font-size: 14px;
     }
@@ -658,6 +703,16 @@
       border-radius: 5px;
       cursor: pointer;
       margin-right: 120px;
+    }
+    .last{
+      color: #848484;
+      font-size: 8px;
+      font-weight: 300;
+    }
+    #container{
+      position: absolute;
+      top: 550px;
+      right: 50px;
     }
   }
 
@@ -802,17 +857,21 @@
   } */
 
   /* Form */
-
+  form > h2,p{
+    font-family: Aktifo-light;
+    margin-bottom: 4px;
+  }
   .form-container {
     position: absolute;
     top: 400px;
-    right: 400px;
+    right: 450px;
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 10px;
     box-shadow: #000000;
+    font-family: Aktifo-light;
   }
 
   .form-group {
@@ -825,6 +884,7 @@
   }
 
   .form-group label {
+    margin-top: 30px;
     display: block;
     margin-bottom: 5px;
   }
@@ -839,6 +899,7 @@
     box-sizing: border-box;
     resize: vertical;
     color: #ff580b;
+    font-family: Aktifo-light;
   }
 
   .form-group input[type="checkbox"] {

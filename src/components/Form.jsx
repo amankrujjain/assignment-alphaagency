@@ -21,10 +21,12 @@ function Form() {
     };
   }, []);
   return (
-    <div>
+    <div form-main>
       {showForm && (
-        <div className="form-container">
+        <div className="form-container" id='container'>
           <form>
+            <h2>Connect with us</h2>
+            <p>for oustanding protective overlaminates</p>
             <div className="form-group">
               <label >Name:</label>
               <input type="text" id="name" name="name" required />

@@ -16,7 +16,7 @@ function MidSection() {
           <li>Our digital overlaminates can be used on a variety of substrates,<br/> including banners, vehicle graphics, outdoor signage, and more.</li><br/>
         </ul>
       </div>
-      <button className='btn'> Inquire Now <span className='arrow'><BsArrowRight/></span></button>
+      <button className='btn'> <a href='#container'>Inquire Now <span className='arrow'><BsArrowRight/></span></a></button>
     </div>
     <Content/>
     </>
