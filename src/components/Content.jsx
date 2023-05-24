@@ -197,9 +197,9 @@ function Content() {
           </div>
         </div>
       </div>
-      <div className='section-img'>
+      {/* <div className='section-img'>
         <img src={image} alt="image" />
-      </div>
+      </div> */}
 
       <Footer />
     </>

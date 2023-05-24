@@ -31,7 +31,10 @@ function Form() {
               <label >Name:</label>
               <input type="text" id="name" name="name" required />
             </div>
-
+            <div className="form-group">
+              <label >Last Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
             <div className="form-group">
               <label >Email:</label>
               <input type="email" id="email" name="email" required />
