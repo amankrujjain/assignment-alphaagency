@@ -538,9 +538,9 @@
     }
     .image > img{
       height:50px;
-      width:100px;
+      width:120px;
       position: absolute;
-      right:120px;
+      right:100px;
     }
     .bold-text {
       font-size: 1.2rem;
@@ -583,7 +583,6 @@
     .division-two{
       display: hidden;
     }
-
 
     .mid-section {
       background-image: url("../src/assets//pics/Mask Group 1@2x.png");
