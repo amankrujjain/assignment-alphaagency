@@ -40,7 +40,7 @@ function HeroSection() {
             </div>
             <div className="first-col">
               <div className="split">
-                <svg id="Group_195" data-name="Group 195" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="49.289" height="42.755" viewBox="0 0 19.289 22.755">
+                <svg className='fix' id="Group_195" data-name="Group 195" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="49.289" height="42.755" viewBox="0 0 19.289 22.755">
                   <defs>
                     <clipPath id="clip-path">
                       <rect id="Rectangle_75" data-name="Rectangle 75" width="19.289" height="22.755" fill="#fff" />
@@ -57,7 +57,7 @@ function HeroSection() {
             </div>
             <div className="first-col">
               <div className="split">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" viewBox="0 0 28 29">
+                <svg className='fix' xmlns="http://www.w3.org/2000/svg" width="48" height="49" viewBox="0 0 28 29">
                   <g id="Asset_2ne" data-name="Asset 2ne" transform="translate(-0.438 -0.191)">
                     <g id="Layer_2">
                       <g id="Symbols">

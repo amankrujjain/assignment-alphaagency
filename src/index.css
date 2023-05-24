@@ -529,7 +529,224 @@
     }
   } */
 
-  @media only screen and (min-width:300px) and (max-width:500px) {
+  @media only screen and (max-width:399px){
+    .hero-section{
+      background-image: url("../src/assets/pics/Mask Group 2@2x.png");
+    }
+    .image{
+      top: 30px;
+    }
+    .image > img{
+      height:50px;
+      width:100px;
+      position: absolute;
+      right:120px;
+    }
+    .bold-text {
+      font-size: 1.2rem;
+      top: 120px;
+      width: 80%;
+      left: 40px;
+    }
+    .light-text {
+      font-size: 18px;
+      width: 80%;
+      top: 220px;
+      left: 40px;
+    }
+    .svg-icons {
+      width: 80px;
+      left: 90px;
+      top: 280px;
+    }
+    .first-col{
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+    }
+    .fix{
+      font-size: 10px;
+      position: relative;
+      top: 5px;
+      height: 30px;
+    }
+    .text-one > p{
+      font-size: 10px;
+      text-align: center;
+      width: 60px;
+    }
+    .text-one{
+      position: relative;
+      top: 10px;
+      left: -5px;
+    }
+    .division-two{
+      display: hidden;
+    }
+
+
+    .mid-section {
+      background-image: url("../src/assets//pics/Mask Group 1@2x.png");
+      height: 2124px;
+    }
+    .content {
+      top: 750px;
+      left: 30px;
+    }
+    .content>p{
+      font-size: 12px;
+    }
+    .content>h1{
+      font-size: 22px;
+    }
+    .content ul li {
+      font-size: 10px;
+    }
+    .btn {
+      top: 850px;
+      left: 30px;
+      padding: 10px 20px;
+      font-size: 20px;
+      border-radius: 10px;
+    }
+    .content-section{
+      display: none;
+    }
+    .content-section-two{
+      display: block;
+      height: 1290px;
+      background-color:#e6e6e6 ;
+    }
+
+    .content>h1 {
+      font-size: 28px;
+    }
+
+    .content>p,
+    .content>h2,
+    ul li {
+      font-size: 12px;
+    }
+
+    .heading {
+      font-size: 18px;
+      margin-left: 50px;
+      margin-top: 170px;
+      margin-bottom: -36px;
+    }
+
+    .text {
+      margin-left: 40px;
+    }
+
+    .icon {
+      margin-bottom: 15px;
+      height: 85px;
+      width: 90px;
+    }
+    .icon-text-two{
+      justify-content: center;
+      align-items: baseline;
+    }
+    
+    .heading >h3{
+      margin-right: 180px;
+      font-size: 30px;
+      margin-top:-100px;
+    }
+    .content>p,
+    .content>h2,
+    ul li {
+      font-size: 13px;
+    }
+    .text > h1{
+      font-size: 15px;
+    }
+    .text > p{
+      font-size: 12px;
+    }
+    .btn-two {
+
+      padding: 5px 25px 5px 25px;
+      font-size: 20px;
+      background-color: #ff580b;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+
+
+    .section-img>img {
+      display: block;
+    }
+    .footer{
+      display: none;
+    }
+    .footer-next{
+      padding: 25px;
+      display: block;
+    }
+    .text {
+      font-size: 12px;
+    }
+
+    .split {
+      padding: 5px;
+    }
+
+    .text-one>p {
+      font-size: 10px;
+    }
+
+    .footer-one>img {
+      position: relative;
+      bottom: 20px;
+      height: 50px;
+      width: 150px;
+    }
+    .footer-first > h3 {
+      color: #727272;
+      font-weight: 200;
+      font-size: 18px;
+    }
+    .footer-second >p {
+      color: #727272;
+      font-weight: 200;
+      font-size: 13px;
+    }
+    .last{
+      color: #848484;
+      font-size: 10px;
+      font-weight: 300;
+    }
+    #container{
+      position: absolute;
+      top: 500px;
+      right: 15px;
+      width: 350px;
+      font-size: 14px;
+    }
+    form > h2{
+      font-size: 20px;
+    }
+    form > p{
+      font-size: 14px;
+    }
+    .form-group input,
+  .form-group textarea,
+  .form-group select {
+    font-size: 12px;
+  }
+  #form-button {
+    padding: 10px 100px;
+    margin-left: 10px;
+  }
+    
+  }
+
+  @media only screen and (min-width:400px) and (max-width:500px) {
     .hero-section {
       background-image: url("../src/assets/pics/Mask Group 2@2x.png");
     }
@@ -586,8 +803,11 @@
     }
 
     .btn {
-      top: 750px;
-      left: 50px;
+      top: 800px;
+      left: 30px;
+      padding: 10px 20px;
+      font-size: 20px;
+      border-radius: 10px;
     }
     .content-section{
       display: none;
@@ -670,7 +890,9 @@
     }
 
     .footer-one>img {
-      height: 40px;
+      position: relative;
+      bottom: 50px;
+      height: 50px;
       width: 150px;
     }
 
@@ -857,7 +1079,7 @@
   } */
 
   /* Form */
-  form > h2,p{
+  form > h2,form > p{
     font-family: Aktifo-light;
     margin-bottom: 4px;
   }

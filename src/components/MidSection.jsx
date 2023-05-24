@@ -8,7 +8,7 @@ function MidSection() {
     <div className='mid-section'>
       <div className="content">
         <h1>DOL Max Overlaminate Films</h1><br/>
-        <p>Printed graphics deserve maximum protection, DOL Max is the solution.</p><br/>
+        <p>Printed graphics deserve maximum protection, DOL <br/> Max is the solution.</p><br/>
         <ul>
           <h2>Features & Benefits</h2><br/>
           <li>Premium vertical durability of up to 7 years and up to 2 years horizontal <br/> durability protection.</li><br/>

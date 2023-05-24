@@ -21,7 +21,7 @@ function Form() {
     };
   }, []);
   return (
-    <div form-main>
+    <div form-main="true">
       {showForm && (
         <div className="form-container" id='container'>
           <form>
@@ -75,7 +75,7 @@ function Form() {
             </div>
 
             <div className="form-group">
-              <button type="submit">Submit <BsArrowRight className='arrow' /></button>
+              <button id='form-button' type="submit">Submit <BsArrowRight className='arrow' /></button>
             </div>
           </form>
         </div>)}
